@@ -1,0 +1,184 @@
+BODY {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+	background: #fff;
+}
+
+FORM,TEXTAREA,INPUT{
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+}
+TEXTAREA{
+	background: #f1efd4;
+	border: 1px solid #2e30cb;
+	padding: 3px;
+	width: 600px;
+	height: 400px;
+}
+.tVerdana {
+	FONT-FAMILY: Verdana, Arial;
+}
+.tTimes {
+	FONT-FAMILY: 'Times New Roman';
+	FONT-SIZE: 16px;
+}
+.tTahoma {
+	FONT-FAMILY: Tahoma,Verdana, Arial;
+}
+.tArial {
+	FONT-FAMILY: Arial,Tahoma,Verdana;
+}
+.text {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+	width: 175px;
+	border: 1px solid #2e30cb;
+	padding: 2px;
+	background-color: #fffba6;
+}
+.button {
+	width: 40px;
+	border: 1px solid #2e30cb;
+}
+
+SELECT, SELECT OPTION {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+}
+.word {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 24px;
+	padding: 0px;
+	border-bottom: 2px solid blue;
+}
+.word .thisword {
+	FONT-WEIGHT: bold;
+	color: red;
+}
+.word .phonetic {
+	color: blue;
+}
+.word TD.actions A {
+	FONT-SIZE: 12px;
+	text-decoration: none;
+	border: 1px solid #2e30cb;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.word TD.actions A:hover {
+	/* text-decoration: underline; */
+	background-color: #ccc;
+}
+
+
+.meanings {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 14px;
+	padding-left: 20px;	
+	padding-right: 20px;	
+}
+
+.meanings .kind {
+	FONT-SIZE: 16px;
+/*	FONT-WEIGHT: bold; */
+	color: #1552de;
+	text-decoration: underline;
+}
+
+.meanings .mean1 {
+	color: black;
+}
+.meanings .mean2 {
+	color: black;
+}
+.meanings .lang1 {
+	color: #c47600;
+}
+.meanings .lang2 {
+	color: #be24aa;
+}
+
+.vicilinks  {
+	FONT-SIZE: 12px;
+	border-top: 1px solid #b87a0e;
+	border-bottom: 1px solid #b87a0e;
+	padding: 2px;
+}
+.vicilinks A  {
+	FONT-SIZE: 12px;
+	text-decoration: none;
+}
+.vicilinks A:hover  {
+	FONT-SIZE: 12px;
+	text-decoration: underline;
+	background-color: yellow;
+}
+
+.box {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+	width: 176px;
+	height: 80px;
+	overflow: auto;
+	background-color: #efefef;
+	padding: 1px;
+	border: 1px solid #969696;
+}
+.boxhidden {
+	width: 0px;
+	height: 0;
+	padding: 0px;
+	visibility: hidden;
+}
+.footer {
+	font-size: 10px;
+}
+/* Autocomplte wordlist */
+.AutoComplete {
+	padding-left: 5px;
+}
+.AutoComplete:hover {
+	color: blue;
+	background-color: #ffe58e;
+	border-top:1px solid #CECECE;
+	border-bottom:1px solid #CECECE;
+}
+
+/* Edit/Add */
+FIELDSET.fs {
+	width: 510px;
+	padding: 5px;
+}
+FIELDSET.fs LEGEND {
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #2e30cb;
+}
+.inputWord {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+	width: 500px;
+	border: 0px;
+	border-bottom: 1px solid #2e30cb;
+	padding: 2px;
+	background-color: #fffdc9;
+}
+.inputUser, .inputPass {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+	width: 100px;
+	border: 1px solid #2e30cb;
+	padding: 2px;
+}
+.textMeanings {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+	/*background: #e7fffd; */
+	background-color: #fffdc9;
+	border: 0px;
+	border-left: 3px solid #2e30cb;
+	padding: 3px;
+	width: 500px;
+	height: 300px;
+	overflow: auto;
+}
